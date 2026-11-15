@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #0F1620;
+  color: #E8EDF3;
+}
+
+::selection {
+  background-color: #E8543A;
+  color: #0F1620;
+}
+
+.leaflet-container {
+  background: #060D1A !important;
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-tile-pane {
+  filter: brightness(0.7) saturate(0.6) hue-rotate(200deg);
+}
+
+.leaflet-control-zoom a {
+  background: #0D1B2E !important;
+  color: #E8EDF5 !important;
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: #1A2F4E !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(6,13,26,0.8) !important;
+  color: #64748B !important;
+  font-size: 9px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #0D1B2E !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 6px !important;
+  color: #E8EDF5 !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: #0D1B2E !important;
+}
+
+.leaflet-popup-close-button {
+  color: #94A3B8 !important;
+}
+
+@keyframes pulse-danger {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes slide-in-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-pulse-danger {
+  animation: pulse-danger 2s ease-in-out infinite;
+}
+
+.animate-slide-in {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+.gradient-risk-low { background: rgba(37,99,235,0.55); }
+.gradient-risk-med-low { background: rgba(16,185,129,0.55); }
+.gradient-risk-medium { background: rgba(234,179,8,0.55); }
+.gradient-risk-med-high { background: rgba(249,115,22,0.55); }
+.gradient-risk-high { background: rgba(220,38,38,0.55); }
+.gradient-risk-critical { background: rgba(185,28,28,0.75); }

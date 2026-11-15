@@ -1,0 +1,27 @@
+# --- Aplicacion / servidor ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# --- Validacion / configuracion ---
+pydantic==2.10.4
+pydantic-settings==2.7.0
+email-validator==2.2.0
+
+# --- Base de datos / ORM (asincrono) ---
+SQLAlchemy==2.0.36
+asyncpg==0.30.0
+greenlet==3.1.1
+GeoAlchemy2==0.16.0
+
+# --- Seguridad / autenticacion ---
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+PyJWT==2.10.1
+
+# --- Machine Learning (inferencia XGBoost) ---
+xgboost==2.1.3
+scikit-learn==1.6.0
+pandas==2.2.3
+numpy==2.2.0
+joblib==1.4.2

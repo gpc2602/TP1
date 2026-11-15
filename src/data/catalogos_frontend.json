@@ -1,0 +1,241 @@
+{
+    "distritos": [
+        "ANCON",
+        "ATE",
+        "BARRANCO",
+        "BREÑA",
+        "CARABAYLLO",
+        "CHACLACAYO",
+        "CHORRILLOS",
+        "CIENEGUILLA",
+        "COMAS",
+        "EL AGUSTINO",
+        "INDEPENDENCIA",
+        "JESUS MARIA",
+        "LA MOLINA",
+        "LA VICTORIA",
+        "LIMA",
+        "LINCE",
+        "LOS OLIVOS",
+        "LURIGANCHO - CHOSICA",
+        "LURIN",
+        "MAGDALENA DEL MAR",
+        "MIRAFLORES",
+        "PACHACAMAC",
+        "PUCUSANA",
+        "PUEBLO LIBRE",
+        "PUENTE PIEDRA",
+        "PUNTA HERMOSA",
+        "PUNTA NEGRA",
+        "RIMAC",
+        "SAN BARTOLO",
+        "SAN BORJA",
+        "SAN ISIDRO",
+        "SAN JUAN DE LURIGANCHO",
+        "SAN JUAN DE MIRAFLORES",
+        "SAN LUIS",
+        "SAN MARTIN DE PORRES",
+        "SAN MIGUEL",
+        "SANTA ANITA",
+        "SANTA MARIA DEL MAR",
+        "SANTA ROSA",
+        "SANTIAGO DE SURCO",
+        "SURQUILLO",
+        "VILLA EL SALVADOR",
+        "VILLA MARIA DEL TRIUNFO"
+    ],
+    "modalidades": [
+        "ESTAFA",
+        "EXTORSIÓN",
+        "HURTO",
+        "OTROS",
+        "ROBO",
+        "SECUESTRO",
+        "VIOLENCIA CONTRA LA MUJER E INTEGRANTES"
+    ],
+    "anios_disponibles": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+    ],
+    "coordenadas": {
+        "ANCON": [
+            -11.7742,
+            -77.1758
+        ],
+        "ATE": [
+            -12.0267,
+            -76.9189
+        ],
+        "BARRANCO": [
+            -12.1492,
+            -77.0211
+        ],
+        "BREÑA": [
+            -12.0603,
+            -77.0436
+        ],
+        "CARABAYLLO": [
+            -11.85,
+            -77.0333
+        ],
+        "CHACLACAYO": [
+            -11.975,
+            -76.7692
+        ],
+        "CHORRILLOS": [
+            -12.1625,
+            -77.0219
+        ],
+        "CIENEGUILLA": [
+            -12.1,
+            -76.8
+        ],
+        "COMAS": [
+            -11.9333,
+            -77.05
+        ],
+        "EL AGUSTINO": [
+            -12.0453,
+            -77.0044
+        ],
+        "INDEPENDENCIA": [
+            -11.9833,
+            -77.05
+        ],
+        "JESUS MARIA": [
+            -12.0747,
+            -77.0481
+        ],
+        "LA MOLINA": [
+            -12.0792,
+            -76.9261
+        ],
+        "LA VICTORIA": [
+            -12.0653,
+            -77.0153
+        ],
+        "LIMA": [
+            -12.0464,
+            -77.0428
+        ],
+        "LINCE": [
+            -12.0833,
+            -77.0333
+        ],
+        "LOS OLIVOS": [
+            -11.9667,
+            -77.0667
+        ],
+        "LURIGANCHO - CHOSICA": [
+            -12.0464,
+            -77.0428
+        ],
+        "LURIN": [
+            -12.2833,
+            -76.8667
+        ],
+        "MAGDALENA DEL MAR": [
+            -12.0911,
+            -77.0683
+        ],
+        "MIRAFLORES": [
+            -12.1211,
+            -77.0297
+        ],
+        "PACHACAMAC": [
+            -12.1333,
+            -76.8667
+        ],
+        "PUCUSANA": [
+            -12.4333,
+            -76.8
+        ],
+        "PUEBLO LIBRE": [
+            -12.0769,
+            -77.0631
+        ],
+        "PUENTE PIEDRA": [
+            -11.8667,
+            -77.0833
+        ],
+        "PUNTA HERMOSA": [
+            -12.3333,
+            -76.8333
+        ],
+        "PUNTA NEGRA": [
+            -12.3667,
+            -76.8
+        ],
+        "RIMAC": [
+            -12.0333,
+            -77.0333
+        ],
+        "SAN BARTOLO": [
+            -12.3833,
+            -76.7833
+        ],
+        "SAN BORJA": [
+            -12.1083,
+            -77.0056
+        ],
+        "SAN ISIDRO": [
+            -12.0975,
+            -77.0353
+        ],
+        "SAN JUAN DE LURIGANCHO": [
+            -11.9833,
+            -77.0
+        ],
+        "SAN JUAN DE MIRAFLORES": [
+            -12.15,
+            -76.9667
+        ],
+        "SAN LUIS": [
+            -12.075,
+            -76.9917
+        ],
+        "SAN MARTIN DE PORRES": [
+            -12.0,
+            -77.0833
+        ],
+        "SAN MIGUEL": [
+            -12.0778,
+            -77.0944
+        ],
+        "SANTA ANITA": [
+            -12.0444,
+            -76.9694
+        ],
+        "SANTA MARIA DEL MAR": [
+            -12.4,
+            -76.7667
+        ],
+        "SANTA ROSA": [
+            -11.8,
+            -77.1667
+        ],
+        "SANTIAGO DE SURCO": [
+            -12.1333,
+            -76.9833
+        ],
+        "SURQUILLO": [
+            -12.1131,
+            -77.0197
+        ],
+        "VILLA EL SALVADOR": [
+            -12.2167,
+            -76.9333
+        ],
+        "VILLA MARIA DEL TRIUNFO": [
+            -12.1667,
+            -76.9333
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+# =============================================================================
+# docker-compose.yml - PredictiSafe (PostGIS + API FastAPI)
+# Levanta todo el ecosistema con:  docker compose up --build
+# =============================================================================
+name: predictisafe
+
+services:
+  # ---------------------------------------------------------------------------
+  # Base de datos PostgreSQL con PostGIS habilitado.
+  # ---------------------------------------------------------------------------
+  db:
+    image: postgis/postgis:15-3.3
+    container_name: predictisafe-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-predictisafe}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-predictisafe}
+      POSTGRES_DB: ${POSTGRES_DB:-predictisafe}
+    ports:
+      # Expuesto para inspeccion local; puede quitarse en produccion.
+      - "5432:5432"
+    volumes:
+      # Persistencia de datos entre reinicios de contenedores.
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - predictisafe-net
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${POSTGRES_USER:-predictisafe} -d ${POSTGRES_DB:-predictisafe}",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # ---------------------------------------------------------------------------
+  # Backend FastAPI.
+  # ---------------------------------------------------------------------------
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: predictisafe-api
+    restart: unless-stopped
+    depends_on:
+      db:
+        # Espera a que Postgres este realmente listo para aceptar conexiones.
+        condition: service_healthy
+    environment:
+      # El host es el nombre del servicio 'db' dentro de la red interna.
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-predictisafe}:${POSTGRES_PASSWORD:-predictisafe}@db:5432/${POSTGRES_DB:-predictisafe}
+      SECRET_KEY: ${SECRET_KEY:-cambia-esta-clave-en-produccion}
+      JWT_ALGORITHM: ${JWT_ALGORITHM:-HS256}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-60}
+      DB_ECHO: ${DB_ECHO:-false}
+    ports:
+      - "8000:8000"
+    networks:
+      - predictisafe-net
+    # Alternativa: cargar todas las variables desde un archivo dedicado.
+    # env_file:
+    #   - .env.backend
+    # Para poblar datos de prueba tras levantar:
+    #   docker compose exec api python seed.py
+
+# Volumen con nombre para la base de datos.
+volumes:
+  pgdata:
+    driver: local
+
+# Red interna compartida por ambos servicios.
+networks:
+  predictisafe-net:
+    driver: bridge

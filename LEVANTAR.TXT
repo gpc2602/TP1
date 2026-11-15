@@ -1,0 +1,63 @@
+================================================================================
+PREDICTISAFE LIMA - SISTEMA DE PREVENCIÓN PREDICTIVA DE SEGURIDAD CIUDADANA
+================================================================================
+
+1. CÓMO LEVANTAR EL SISTEMA:
+--------------------------------------------------------------------------------
+A) INICIAR EL BACKEND (FastAPI - Puerto 8001):
+   uvicorn app.main:app --reload --port 8001
+
+B) INICIAR EL FRONTEND (React + Vite - Puerto 5173):
+   npm run dev
+
+--------------------------------------------------------------------------------
+2. URLs DE ACCESO LOCAL:
+--------------------------------------------------------------------------------
+* Frontend Web:            http://localhost:5173
+* Backend API:             http://localhost:8001
+* Documentación Swagger:   http://localhost:8001/docs
+* Health Check:            http://localhost:8001/health
+
+--------------------------------------------------------------------------------
+3. CREDENCIALES REALES INSTITUCIONALES POR ROL (RBAC):
+--------------------------------------------------------------------------------
+
+[1] ADMINISTRADOR:
+    * Correo:       admin@serenazgo.gob.pe
+    * Contraseña:   Admin2026!
+    * Funcionario:  Com. César Morales (Lima Centro)
+    * Alcance:      Acceso TOTAL a todos los módulos: Gestión de usuarios y roles,
+                    Auditoría, Configuración, Datasets, Mapa de calor, Alertas,
+                    Simulador, Análisis IA (SHAP) y Reportes.
+
+[2] SUPERVISOR DE OPERACIONES:
+    * Correo:       supervisor@serenazgo.gob.pe
+    * Contraseña:   Supervisor2026!
+    * Funcionario:  Sup. Patricia Vega (Miraflores)
+    * Alcance:      Monitoreo táctico y operacional: Dashboard en tiempo real,
+                    Mapa de calor, Simulador de patrullaje táctico, Sistema
+                    de alertas y Reportes operacionales.
+
+[3] ANALISTA DE INTELIGENCIA CRIMINAL:
+    * Correo:       analista@serenazgo.gob.pe
+    * Contraseña:   Analista2026!
+    * Funcionario:  Analista Gabriela Torres (San Isidro)
+    * Alcance:      Inteligencia predictiva: Dashboard analítico, Mapa de calor,
+                    Análisis de explicabilidad del modelo IA (SHAP),
+                    Tendencias delictivas y Reportes estadísticos.
+
+[4] OPERADOR DE SERENAZGO:
+    * Correo:       operador@serenazgo.gob.pe
+    * Contraseña:   Operador2026!
+    * Funcionario:  Operador Manuel Quispe (Breña)
+    * Alcance:      Monitoreo operativo de campo: Visualización del mapa de calor
+                    sectorial y recepción/atención de alertas prioritarias.
+
+--------------------------------------------------------------------------------
+4. SEGURIDAD Y CUMPLIMIENTO:
+--------------------------------------------------------------------------------
+* Control de Acceso Basado en Roles (RBAC) auditado.
+* Tokens JWT (JSON Web Tokens) firmados con expiración.
+* Contraseñas con hashing criptográfico seguro PBKDF2-HMAC-SHA256.
+* Cumplimiento con la Ley N° 29733 de Protección de Datos Personales de Perú.
+================================================================================
