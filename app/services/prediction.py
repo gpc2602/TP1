@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any
-
+import urllib.request
 import joblib
 import numpy as np
 import pandas as pd
@@ -101,6 +101,17 @@ class PrediccionResultado:
 def cargar_modelo() -> None:
     """Carga el modelo Random Forest y artefactos en memoria al arrancar la API."""
     global _modelo, _columnas, _perfil_riesgo, _catalogos, _modelo_version
+
+    MODEL_URL = "https://huggingface.co"
+    if not MODEL_PATH.exists():
+        try:
+            logger.info("Descargando modelo desde Hugging Face...")
+            ML_MODELS_DIR.mkdir(parents=True, exist_ok=True)
+            urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
+            logger.info("✅ Modelo descargado correctamente.")
+        except Exception as e:
+            logger.error("Error descargando el modelo: %s", e)
+    # ------------------------------------------------------------------
 
     if not MODEL_PATH.exists() or not COLUMNS_PATH.exists():
         logger.warning(
