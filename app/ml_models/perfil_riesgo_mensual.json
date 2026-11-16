@@ -1,0 +1,54 @@
+{
+    "1": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.7248
+    },
+    "2": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.5375
+    },
+    "3": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.8289
+    },
+    "4": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.6915
+    },
+    "5": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.0721
+    },
+    "6": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.5244
+    },
+    "7": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.9026
+    },
+    "8": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 45.9383
+    },
+    "9": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 45.977
+    },
+    "10": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.6142
+    },
+    "11": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.9221
+    },
+    "12": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.8347
+    },
+    "default": {
+        "iluminacion_deficiente_pct": 34.4333,
+        "cobertura_videovigilancia_pct": 46.5367
+    }
+}
