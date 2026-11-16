@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nombre": "Com. César Morales",
+    "email": "admin@serenazgo.gob.pe",
+    "rol": "administrador",
+    "distrito": "Lima Centro",
+    "activo": true,
+    "creado_en": "2026-01-15T08:00:00Z",
+    "ultimo_acceso": "2026-11-04T04:27:45.609494+00:00",
+    "password_hash": "pbkdf2:sha256:100000$e0e5ee2b6912c6949f1ce7c6e2b92f84$a800d426b57ef448cfcc50370913d5b5b019f35eadb1a88fedf774c4e94ccca9"
+  },
+  {
+    "id": 2,
+    "nombre": "Sup. Patricia Vega",
+    "email": "supervisor@serenazgo.gob.pe",
+    "rol": "supervisor",
+    "distrito": "Miraflores",
+    "activo": true,
+    "creado_en": "2026-02-01T09:15:00Z",
+    "ultimo_acceso": "2026-11-04T04:13:19.765472+00:00",
+    "password_hash": "pbkdf2:sha256:100000$853433a606013f1f98f69d80c7195862$df2ab5602419e5b0ca7448471e980d03153342a44e869f50a9fca48dd513f89a"
+  },
+  {
+    "id": 3,
+    "nombre": "Analista Gabriela Torres",
+    "email": "analista@serenazgo.gob.pe",
+    "rol": "analista",
+    "distrito": "San Isidro",
+    "activo": true,
+    "creado_en": "2026-02-10T11:00:00Z",
+    "ultimo_acceso": "2026-11-04T04:15:46.344647+00:00",
+    "password_hash": "pbkdf2:sha256:100000$a97dc07f33c76652ee01788dd42975d4$5dd4622d8ffacff0d259e48e665c0a8fef8da06f1f7bbb3e142b5a1fa82b08ef"
+  },
+  {
+    "id": 4,
+    "nombre": "Operador Manuel Quispe",
+    "email": "operador@serenazgo.gob.pe",
+    "rol": "operador",
+    "distrito": "Breña",
+    "activo": true,
+    "creado_en": "2026-03-05T07:30:00Z",
+    "ultimo_acceso": "2026-11-04T04:26:47.944141+00:00",
+    "password_hash": "pbkdf2:sha256:100000$81ff3c95e19253e117356e5d0972e28f$a97e3f62dd44eba818d9016e53210c90666792cae850c3af8d34ae1bf89aab1e"
+  }
+]

@@ -1,0 +1,181 @@
+{
+  "comisarias": [
+    {
+      "id": 1,
+      "nombre": "Comisaría PNP San Martín de Porres",
+      "distrito": "San Martín de Porres",
+      "direccion": "Av. Perú Cdra. 35 s/n",
+      "telefono": "(01) 567-2341",
+      "comisario": "Cmdte. PNP Víctor Morales Silva",
+      "patrullas_asignadas": 8,
+      "efectivos": 45,
+      "estado": "Operativa",
+      "coordenadas": [-12.0298, -77.0851]
+    },
+    {
+      "id": 2,
+      "nombre": "Comisaría PNP Barboncito",
+      "distrito": "San Martín de Porres",
+      "direccion": "Av. Zarumilla 590",
+      "telefono": "(01) 481-0922",
+      "comisario": "Mayor PNP Carlos Benítez",
+      "patrullas_asignadas": 6,
+      "efectivos": 38,
+      "estado": "Operativa",
+      "coordenadas": [-12.0365, -77.0512]
+    },
+    {
+      "id": 3,
+      "nombre": "Comisaría PNP Alfonso Ugarte",
+      "distrito": "Cercado de Lima",
+      "direccion": "Av. Alfonso Ugarte 1200",
+      "telefono": "(01) 424-0011",
+      "comisario": "Cmdte. PNP Roberto Huamán",
+      "patrullas_asignadas": 10,
+      "efectivos": 60,
+      "estado": "Operativa",
+      "coordenadas": [-12.0514, -77.0428]
+    },
+    {
+      "id": 4,
+      "nombre": "Comisaría PNP Miraflores",
+      "distrito": "Miraflores",
+      "direccion": "Calle General Borgoño 1065",
+      "telefono": "(01) 445-3211",
+      "comisario": "Cmdte. PNP Diana Paredes",
+      "patrullas_asignadas": 7,
+      "efectivos": 40,
+      "estado": "Operativa",
+      "coordenadas": [-12.1191, -77.0294]
+    },
+    {
+      "id": 5,
+      "nombre": "Comisaría PNP San Isidro",
+      "distrito": "San Isidro",
+      "direccion": "Av. Del Parque Sur 450",
+      "telefono": "(01) 224-8930",
+      "comisario": "Mayor PNP Jorge Céspedes",
+      "patrullas_asignadas": 6,
+      "efectivos": 35,
+      "estado": "Operativa",
+      "coordenadas": [-12.0982, -77.0289]
+    },
+    {
+      "id": 6,
+      "nombre": "Comisaría PNP Breña",
+      "distrito": "Breña",
+      "direccion": "Jr. General Varela 1245",
+      "telefono": "(01) 431-7722",
+      "comisario": "Mayor PNP Manuel Rivas",
+      "patrullas_asignadas": 5,
+      "efectivos": 32,
+      "estado": "Operativa",
+      "coordenadas": [-12.0603, -77.0436]
+    },
+    {
+      "id": 7,
+      "nombre": "Comisaría PNP La Victoria",
+      "distrito": "La Victoria",
+      "direccion": "Av. Iquitos 850",
+      "telefono": "(01) 324-1100",
+      "comisario": "Cmdte. PNP Luis Salazar",
+      "patrullas_asignadas": 9,
+      "efectivos": 52,
+      "estado": "Operativa",
+      "coordenadas": [-12.0689, -77.0255]
+    }
+  ],
+  "zonas": [
+    {
+      "id": 1,
+      "codigo": "SEC-01",
+      "nombre": "Sector 01 - Cuadrante SMP Centro",
+      "distrito": "San Martín de Porres",
+      "nivel_riesgo": "Alto",
+      "color_riesgo": "#EF4444",
+      "supervisor_cargo": "Sup. Patricia Vega",
+      "patrullas_activas": 4,
+      "poblacion_estimada": "72,000 hab.",
+      "cobertura": "85%",
+      "delitos_frecuentes": ["Robo al paso", "Arrebato de celulares", "Hurto agravado"]
+    },
+    {
+      "id": 2,
+      "codigo": "SEC-02",
+      "nombre": "Sector 02 - Cuadrante Condevilla",
+      "distrito": "San Martín de Porres",
+      "nivel_riesgo": "Medio",
+      "color_riesgo": "#F59E0B",
+      "supervisor_cargo": "Sup. Roberto Salas",
+      "patrullas_activas": 3,
+      "poblacion_estimada": "58,000 hab.",
+      "cobertura": "78%",
+      "delitos_frecuentes": ["Robo de autopartes", "Estafa"]
+    },
+    {
+      "id": 3,
+      "codigo": "SEC-03",
+      "nombre": "Sector 03 - Caquetá / Zarumilla",
+      "distrito": "San Martín de Porres",
+      "nivel_riesgo": "Crítico",
+      "color_riesgo": "#DC2626",
+      "supervisor_cargo": "Com. César Morales",
+      "patrullas_activas": 6,
+      "poblacion_estimada": "95,000 hab.",
+      "cobertura": "92%",
+      "delitos_frecuentes": ["Robo agravado", "Extorsión", "Comercio informal riesgoso"]
+    },
+    {
+      "id": 4,
+      "codigo": "SEC-04",
+      "nombre": "Sector 04 - Eje Alfonso Ugarte",
+      "distrito": "Cercado de Lima",
+      "nivel_riesgo": "Alto",
+      "color_riesgo": "#EF4444",
+      "supervisor_cargo": "Sup. Luis Mamani",
+      "patrullas_activas": 4,
+      "poblacion_estimada": "64,000 hab.",
+      "cobertura": "80%",
+      "delitos_frecuentes": ["Arrebato", "Hurto en transporte público"]
+    },
+    {
+      "id": 5,
+      "codigo": "SEC-05",
+      "nombre": "Sector 05 - Malecón y Zona Comercial",
+      "distrito": "Miraflores",
+      "nivel_riesgo": "Bajo",
+      "color_riesgo": "#10B981",
+      "supervisor_cargo": "Sup. Patricia Vega",
+      "patrullas_activas": 4,
+      "poblacion_estimada": "42,000 hab.",
+      "cobertura": "95%",
+      "delitos_frecuentes": ["Hurto simple"]
+    },
+    {
+      "id": 6,
+      "codigo": "SEC-06",
+      "nombre": "Sector 06 - Centro Financiero",
+      "distrito": "San Isidro",
+      "nivel_riesgo": "Bajo",
+      "color_riesgo": "#10B981",
+      "supervisor_cargo": "Sup. Patricia Vega",
+      "patrullas_activas": 3,
+      "poblacion_estimada": "38,000 hab.",
+      "cobertura": "94%",
+      "delitos_frecuentes": ["Estafa digital", "Hurto de bicicletas"]
+    },
+    {
+      "id": 7,
+      "codigo": "SEC-07",
+      "nombre": "Sector 07 - Zona Residencial Breña",
+      "distrito": "Breña",
+      "nivel_riesgo": "Medio",
+      "color_riesgo": "#F59E0B",
+      "supervisor_cargo": "Operador Manuel Quispe",
+      "patrullas_activas": 3,
+      "poblacion_estimada": "45,000 hab.",
+      "cobertura": "75%",
+      "delitos_frecuentes": ["Robo al paso", "Hurto de autopartes"]
+    }
+  ]
+}

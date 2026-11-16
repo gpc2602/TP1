@@ -1,0 +1,178 @@
+[
+  {
+    "id": 16,
+    "timestamp": "2026-11-04T04:39:04.036184+00:00",
+    "user": "Operador Central",
+    "user_email": "operador@serenazgo.gob.pe",
+    "action": "Alerta A-007 resuelta",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Incidente verificado y concluido en San Isidro.",
+    "status": "success"
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-11-04T04:39:04.000816+00:00",
+    "user": "Supervisor de Despacho",
+    "user_email": "supervisor@serenazgo.gob.pe",
+    "action": "Patrulla SI-01 despachada",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Despacho a incidente A-007 en Av. Rivera Navarrete cdra 5.",
+    "status": "success"
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-11-04T04:39:03.965522+00:00",
+    "user": "Central de Monitoreo",
+    "user_email": "alertas@serenazgo.gob.pe",
+    "action": "Alerta A-007 emitida",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Emisión de alerta CRITICAL en San Isidro (Av. Rivera Navarrete cdra 5).",
+    "status": "success"
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-11-04T04:27:31.099897+00:00",
+    "user": "Operador Central",
+    "user_email": "operador@serenazgo.gob.pe",
+    "action": "Alerta A-006 resuelta",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Incidente verificado y concluido en San Martín de Porres.",
+    "status": "success"
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-11-04T04:26:32.960043+00:00",
+    "user": "Central de Monitoreo",
+    "user_email": "alertas@serenazgo.gob.pe",
+    "action": "Alerta A-006 emitida",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Emisión de alerta HIGH en San Martín de Porres (Av. Navidad).",
+    "status": "success"
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-11-04T04:07:32.828126+00:00",
+    "user": "Operador Central",
+    "user_email": "operador@serenazgo.gob.pe",
+    "action": "Alerta A-002 resuelta",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Incidente verificado y concluido en Cercado de Lima.",
+    "status": "success"
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-11-04T04:07:31.653823+00:00",
+    "user": "Supervisor de Despacho",
+    "user_email": "supervisor@serenazgo.gob.pe",
+    "action": "Patrulla LIM-01 despachada",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Despacho a incidente A-002 en Jr. De la Unión con Av. Emancipación.",
+    "status": "success"
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-11-04T04:07:21.952412+00:00",
+    "user": "Operador Central",
+    "user_email": "operador@serenazgo.gob.pe",
+    "action": "Alerta A-001 resuelta",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Incidente verificado y concluido en San Martín de Porres.",
+    "status": "success"
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-11-04T04:07:18.563441+00:00",
+    "user": "Supervisor de Despacho",
+    "user_email": "supervisor@serenazgo.gob.pe",
+    "action": "Patrulla SMP-02 despachada",
+    "action_type": "alert",
+    "ip": "127.0.0.1",
+    "details": "Despacho a incidente A-001 en Av. Perú con Jr. Quilca.",
+    "status": "success"
+  },
+  {
+    "id": 1,
+    "timestamp": "2026-11-03T21:45:10Z",
+    "user": "Com. César Morales",
+    "user_email": "admin@serenazgo.gob.pe",
+    "action": "Inicio de sesión institucional",
+    "action_type": "login",
+    "ip": "192.168.1.10",
+    "details": "Autenticación exitosa con credenciales institucionales y token JWT emitido.",
+    "status": "success"
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-11-03T21:30:45Z",
+    "user": "Sup. Patricia Vega",
+    "user_email": "supervisor@serenazgo.gob.pe",
+    "action": "Despacho de patrulla SMP-01",
+    "action_type": "alert",
+    "ip": "192.168.1.25",
+    "details": "Despacho táctico de unidad a zona crítica en Av. Perú con Jr. Quilca.",
+    "status": "success"
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-11-03T21:15:20Z",
+    "user": "Analista Gabriela Torres",
+    "user_email": "analista@serenazgo.gob.pe",
+    "action": "Ejecución de inferencia predictiva",
+    "action_type": "model",
+    "ip": "192.168.1.42",
+    "details": "Cálculo de mapa de calor geoespacial de riesgo delictivo para Lima Metropolitana.",
+    "status": "success"
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-11-03T20:50:00Z",
+    "user": "Sistema Automático",
+    "user_email": "sistema@predictisafe.gob.pe",
+    "action": "Calibración de modelo Random Forest / XGBoost",
+    "action_type": "model",
+    "ip": "127.0.0.1",
+    "details": "Carga de 43 distritos y 52 variables del catálogo en memoria.",
+    "status": "success"
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-11-03T20:10:15Z",
+    "user": "Com. César Morales",
+    "user_email": "admin@serenazgo.gob.pe",
+    "action": "Actualización de umbral crítico",
+    "action_type": "config",
+    "ip": "192.168.1.10",
+    "details": "Ajuste de umbral de riesgo crítico: 70% -> 75% para activación de alertas.",
+    "status": "warning"
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-11-03T19:40:00Z",
+    "user": "Operador Manuel Quispe",
+    "user_email": "operador@serenazgo.gob.pe",
+    "action": "Confirmación de alerta en Breña",
+    "action_type": "alert",
+    "ip": "192.168.2.14",
+    "details": "Incidente reportado atendido y verificado en Jr. Huaraz.",
+    "status": "success"
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-11-03T18:30:00Z",
+    "user": "Analista Gabriela Torres",
+    "user_email": "analista@serenazgo.gob.pe",
+    "action": "Exportación de reporte estadístico",
+    "action_type": "export",
+    "ip": "192.168.1.42",
+    "details": "Generación de reporte analítico mensual en formato Excel/CSV.",
+    "status": "success"
+  }
+]
