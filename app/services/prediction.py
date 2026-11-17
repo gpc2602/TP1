@@ -102,7 +102,7 @@ def cargar_modelo() -> None:
     """Carga el modelo Random Forest y artefactos en memoria al arrancar la API."""
     global _modelo, _columnas, _perfil_riesgo, _catalogos, _modelo_version
 
-    MODEL_URL = "https://huggingface.co"
+    MODEL_URL = "https://huggingface.co/spaces/gpc2602/TP1_predictisafe/resolve/main/modelo_prediccion_delitos_lima_enriquecido.joblib"
     if not MODEL_PATH.exists():
         try:
             logger.info("Descargando modelo desde Hugging Face...")
