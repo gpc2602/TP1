@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Configuración de la URL base del backend FastAPI (puerto 8001 en desarrollo local)
-const BASE_URL = import.meta.env.VITE_API_URL || "https://tp1-l07m.onrender.com";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://tp1-l07m.onrender.com/api";
 
 const api = axios.create({
   baseURL: BASE_URL,
