@@ -3,6 +3,7 @@ import logging
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 
 from app.core.config import settings
 from app.core.database import engine
@@ -46,6 +47,17 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(predict.router)
 app.include_router(system.router)
+
+
+@app.get("/", include_in_schema=False)
+async def root():
+    return RedirectResponse(url="/docs")
+
+
+@app.get("/health", tags=["Sistema"])
+async def health() -> dict[str, str]:
+    return {"status": "ok"}
+
 
 
 @app.get("/health", tags=["Sistema"])
